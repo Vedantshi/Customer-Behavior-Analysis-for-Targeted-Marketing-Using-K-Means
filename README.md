@@ -2,10 +2,20 @@
 
 This repository contains a comprehensive analysis of customer behavior using the K-Means clustering algorithm to facilitate targeted marketing strategies.
 
-## 📌 Project Overview
+## Project Overview
 The goal of this project is to segment customers based on their spending behaviors and demographic information. By applying K-Means clustering, we identify distinct customer groups, enabling businesses to tailor marketing strategies more effectively.
 
-## 🚀 Project Stages
+## Project Preview
+![Customer Data Visualization](Results/displot.png)
+![Customer Data Visualization](Results/countplot.png)
+![Customer Data Visualization](Results/scatterplot.png)
+![Customer Data Visualization](Results/swarmplot.png)
+![Customer Data Visualization](Results/customer_segmentation.png)
+![Customer Data Visualization](Results/cluster_scatter_plot.png)
+![Customer Data Visualization](Results/lineplot.png)
+![Customer Data Visualization](Results/3d_plot.png)
+
+## Project Stages
 The analysis is structured into the following stages:
 
 ### 1. Importing Libraries
@@ -29,7 +39,7 @@ Application of the K-Means algorithm to segment customers into meaningful cluste
 ### 5. 3D Plot of Clusters
 Interactive visualization providing a clear representation of identified customer segments.
 
-## 🗃️ Dataset Description
+## Dataset Description
 The dataset consists of 200 customer records with the following attributes:
 
 | Attribute            | Description                                                                 |
@@ -40,11 +50,11 @@ The dataset consists of 200 customer records with the following attributes:
 | Annual Income (k$)   | Annual income in thousands                                                   |
 | Spending Score (1-100) | Score assigned based on spending behavior (1 = low spender, 100 = high spender) |
 
-## 📊 Key Findings
+## Key Findings
 - Customers are grouped into distinct segments that highlight varying spending behaviors.
 - Insights from clusters can significantly enhance targeted marketing efforts by identifying high-value customers and potential areas for growth.
 
-## ⚙️ Technologies Used
+## Technologies Used
 - Python
 - NumPy
 - Pandas
@@ -53,32 +63,11 @@ The dataset consists of 200 customer records with the following attributes:
 - Plotly
 - Scikit-learn (KMeans)
 
-## 📈 How to Run
-To run this project locally:
+## Future enhancements
+- **Model Improvement:** Compare K-Means with DBSCAN, Agglomerative Clustering, and GMM. Automate optimal K selection using silhouette score or elbow method.
 
-1. Clone this repository:
+- **More Features:** Add demographics (e.g., location, marital status) and behavioral data (e.g., online activity, preferences).
 
-    ```bash
-    git clone <repository-url>
-    ```
+## Contact
 
-2. Navigate to the project directory:
-
-    ```bash
-    cd <project-directory>
-    ```
-
-3. Install required libraries:
-
-    ```bash
-    pip install numpy pandas matplotlib seaborn plotly scikit-learn
-    ```
-
-4. Run the Jupyter Notebook:
-
-    ```bash
-    jupyter notebook customer_analysis_kmeans.ipynb
-    ```
-
-## 🤝 Contribution
-Contributions are welcome! Feel free to fork this repository, make improvements, and submit pull requests.
+For questions or collaboration, feel free to reach out via [LinkedIn](https://www.linkedin.com/in/vedantshinde25).
