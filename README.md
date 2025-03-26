@@ -100,7 +100,7 @@ These insights can drive smarter allocation of marketing budgets and improve ROI
 
 ## Dataset Overview
 
-The dataset consists of 200 customer records, each with:
+The dataset consists of 2000 customer records, each with:
 
 - **CustomerID**: Unique identifier  
 - **Gender**: Male or Female  
